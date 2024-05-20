@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "maulik",
+        "email": "maulik@gmail.com",
+        "role": "frontend developer",
+        "address": "vadodara"
+    },
+    {
+        "id": 2,
+        "name": "keval",
+        "email": "keval@yahoo.com",
+        "role": "UI developer",
+        "address": "waghodia"
+    },
+    {
+        "id": 3,
+        "name": "nandan",
+        "email": "nandan@orkut.com",
+        "role": "HTML developer",
+        "address": "bihar"
+    },
+    {
+        "id": 4,
+        "name": "varshil",
+        "email": "varshil@hotmail.com",
+        "role": "sr. frontend developer",
+        "address": "rajkot"
+    }
+]

@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;700&display=swap');
+body{
+    font-family: 'Inter',sans-serif;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: -webkit-linear-gradient(left, #25c481, #25b7c4);
+    background: linear-gradient(to right, #25c481, #25b7c4);
+    color: #ffffff;
+}
+.container{   
+    width: 75vw; 
+    max-width: 100%;
+}
+.d-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 30px;
+    color: #ffffff;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 0;
+    margin: 10px 0;
+}
+.toolbar{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+.ml2{
+    margin-left: 5px;
+}
+.mr2{
+    margin-right: 5px;
+}
+.btn {
+    background: -webkit-linear-gradient(left, #00ff94, #00eaff);
+    background: linear-gradient(to right, #00ff94, #00eaff);
+    border: 0;
+    box-shadow: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #ffffff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    transition: 1s;
+}
+.btn:hover{
+    background: -webkit-linear-gradient(left, #00eaff, #00ff94);
+    background: linear-gradient(to right, #00eaff, #00ff94);
+    box-shadow: 0 0 5px #0fc;
+    transition: 1s;
+}
+.btn span{
+    margin-left: 5px;
+}
+.table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.table thead{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.table td,
+.table th {
+    text-align: left;
+    text-transform: none;
+    padding: 10px 15px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #fff;
+}
+.table th{
+    padding: 20px 15px;
+    border-bottom: 1px solid #ffffff;
+}
+.table tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.form label{
+    width: 100%;
+    margin-bottom: 10px;
+    display: block;
+}
+.form input{
+    width: 100%;
+    margin-bottom: 20px;
+    height: 40px;
+    display: block;
+    padding: 5px 10px;
+    box-shadow: none;
+    outline: 0;
+    background: transparent;
+    border: 1px solid #fff;
+    color: #ffffff;
+    box-sizing: border-box;
+}
+.form textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    display: block;
+    padding: 5px 10px;
+    box-shadow: none;
+    outline: 0;
+    background: transparent;
+    color: #ffffff;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+}
+
+.react-responsive-modal-modal{
+    background: rgb(0 0 0 / 30%) !important;
+    box-shadow: 0 12px 15px 0 rgb(255 255 255 / 25%) !important;
+    width: 100%;
+    box-sizing: border-box;
+}
+.react-responsive-modal-closeButton svg{
+    fill: #ffffff;
+}
+@media screen and (max-width:800px)  {
+    .react-responsive-modal-modal {
+        max-width: 90% !important;
+    }
+}
+@media screen and (max-width:767px)  {
+    .container {
+        width: 90VW;
+    }
+}
+@media screen and (max-width:600px)  {
+    .react-responsive-modal-modal{width: 90%;margin: 0 !important;}
+    .table thead {display: none;}
+    .table td {display: block;}
+    .table td:before {
+        content: attr(data-th) ": ";
+        font-weight: bold;
+        width: 120px;
+        display: inline-block;
+        color: #fff;
+    }
+}
